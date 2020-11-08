@@ -8,6 +8,7 @@ import static org.springframework.beans.factory.config.ConfigurableBeanFactory.S
 @Service
 @Scope(SCOPE_PROTOTYPE)
 public class GreetingService {
+
     String sayHi() {
         return "hello world";
     }
